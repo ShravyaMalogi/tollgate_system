@@ -1,18 +1,21 @@
 # Project Architecture
 
-Vehicle Image
-↓
-YOLO detects number plate
-↓
-Plate region cropped
-↓
-Tesseract OCR extracts text
-↓
-Vehicle number checked in database
-↓
-Toll amount deducted
+<div align="center">
 
----
+Vehicle Image Upload  
+↓  
+YOLOv8 License Plate Detection  
+↓  
+License Plate Cropping  
+↓  
+Text Extraction using Tesseract OCR  
+↓  
+Vehicle Number Verification in Database  
+↓  
+Toll Deduction and Payment Logging
+
+</div>
+
 
 # Project Structure
 
