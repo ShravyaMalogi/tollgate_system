@@ -1,6 +1,7 @@
-# Project Architecture
 
 <div align="center">
+    
+# Project Architecture
 
 Vehicle Image Upload  
 ↓  
@@ -16,8 +17,11 @@ Toll Deduction and Payment Logging
 
 </div>
 
-
-# Project Structure
+---
+ 
+<div align="center">
+    
+# Project Structure </div>
 
 ```
 tollgate_system
@@ -36,7 +40,9 @@ tollgate_system
 
 ---
 
-# Setup Instructions (macOS)
+<div align="center">
+    
+# Setup Instructions (macOS) </div>
 
 ## 1. Clone the Repository
 
@@ -47,7 +53,7 @@ cd tollgate_system
 
 ---
 
-# 2. Install Python Dependencies
+## 2. Install Python Dependencies
 
 Create a virtual environment :
 
@@ -64,7 +70,7 @@ pip install -r requirements.txt
 
 ---
 
-# 3. Install Homebrew 
+## 3. Install Homebrew 
 
 Check if Homebrew is installed:
 
@@ -80,7 +86,7 @@ If not installed:
 
 ---
 
-# 4. Install Tesseract OCR
+## 4. Install Tesseract OCR
 
 ```
 brew install tesseract
@@ -94,7 +100,7 @@ tesseract --version
 
 ---
 
-# 5. Download YOLO License Plate Detection Model
+## 5. Download YOLO License Plate Detection Model
 
 Install gdown:
 
@@ -118,7 +124,7 @@ Place the file in the project root directory.
 
 ---
 
-# 6. Run the Application
+## 6. Run the Application
 
 Start the Streamlit app:
 
