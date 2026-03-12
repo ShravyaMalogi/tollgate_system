@@ -47,7 +47,7 @@ tollgate_system
 ## 1. Clone the Repository
 
 ```
-git clone https://github.com/yourusername/tollgate_system.git
+git clone https://github.com/ShravyaMalogi/tollgate_system.git
 cd tollgate_system
 ```
 
@@ -100,31 +100,7 @@ tesseract --version
 
 ---
 
-## 5. Download YOLO License Plate Detection Model
-
-Install gdown:
-
-```
-pip install gdown
-```
-
-Download trained weights:
-
-```
-gdown "https://drive.google.com/uc?id=1dIyJooVaowaNUj0R1Q-HUnu-utiGsEj8&confirm=t"
-```
-
-This will download:
-
-```
-best.pt
-```
-
-Place the file in the project root directory.
-
----
-
-## 6. Run the Application
+## 5. Run the Application
 
 Start the Streamlit app:
 
